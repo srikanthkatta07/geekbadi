@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "git@github.com:srikanthkatta07/geekbadi.git/static/css/main.850e289c.chunk.css",
-    "main.js": "git@github.com:srikanthkatta07/geekbadi.git/static/js/main.61c1400a.chunk.js",
-    "main.js.map": "git@github.com:srikanthkatta07/geekbadi.git/static/js/main.61c1400a.chunk.js.map",
-    "runtime~main.js": "git@github.com:srikanthkatta07/geekbadi.git/static/js/runtime~main.5c91e672.js",
-    "runtime~main.js.map": "git@github.com:srikanthkatta07/geekbadi.git/static/js/runtime~main.5c91e672.js.map",
-    "static/js/2.3310f33a.chunk.js": "git@github.com:srikanthkatta07/geekbadi.git/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "git@github.com:srikanthkatta07/geekbadi.git/static/js/2.3310f33a.chunk.js.map",
-    "index.html": "git@github.com:srikanthkatta07/geekbadi.git/index.html",
-    "precache-manifest.c89404944f967db6c1ee80fd930e091d.js": "git@github.com:srikanthkatta07/geekbadi.git/precache-manifest.c89404944f967db6c1ee80fd930e091d.js",
-    "service-worker.js": "git@github.com:srikanthkatta07/geekbadi.git/service-worker.js",
-    "static/css/main.850e289c.chunk.css.map": "git@github.com:srikanthkatta07/geekbadi.git/static/css/main.850e289c.chunk.css.map",
-    "static/media/main.scss": "git@github.com:srikanthkatta07/geekbadi.git/static/media/understand.4aaa3e38.svg"
+    "main.css": "/geekbadi/static/css/main.a0367bf4.chunk.css",
+    "main.js": "/geekbadi/static/js/main.d8cb8403.chunk.js",
+    "main.js.map": "/geekbadi/static/js/main.d8cb8403.chunk.js.map",
+    "runtime~main.js": "/geekbadi/static/js/runtime~main.512d8d22.js",
+    "runtime~main.js.map": "/geekbadi/static/js/runtime~main.512d8d22.js.map",
+    "static/js/2.3310f33a.chunk.js": "/geekbadi/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/geekbadi/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/geekbadi/index.html",
+    "precache-manifest.20bbcabb67e30f25c7796ebdfaa58d72.js": "/geekbadi/precache-manifest.20bbcabb67e30f25c7796ebdfaa58d72.js",
+    "service-worker.js": "/geekbadi/service-worker.js",
+    "static/css/main.a0367bf4.chunk.css.map": "/geekbadi/static/css/main.a0367bf4.chunk.css.map",
+    "static/media/main.scss": "/geekbadi/static/media/understand.4aaa3e38.svg"
   }
 }
