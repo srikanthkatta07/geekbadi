@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/css/main.14f715db.chunk.css",
-    "main.js": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/js/main.06e894a8.chunk.js",
-    "main.js.map": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/js/main.06e894a8.chunk.js.map",
-    "runtime~main.js": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/js/runtime~main.5207edb3.js",
-    "runtime~main.js.map": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/js/runtime~main.5207edb3.js.map",
-    "static/js/2.3310f33a.chunk.js": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/js/2.3310f33a.chunk.js.map",
-    "index.html": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/index.html",
-    "precache-manifest.78598d34c7b1118ad5345d2902e6e090.js": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/precache-manifest.78598d34c7b1118ad5345d2902e6e090.js",
-    "service-worker.js": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/service-worker.js",
-    "static/css/main.14f715db.chunk.css.map": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/css/main.14f715db.chunk.css.map",
-    "static/media/main.scss": "git@github.com:srikanthkatta07/srikanthkatta07.github.io.git/static/media/understand.4aaa3e38.svg"
+    "main.css": "git@github.com:srikanthkatta07/geekbadi.git/static/css/main.850e289c.chunk.css",
+    "main.js": "git@github.com:srikanthkatta07/geekbadi.git/static/js/main.61c1400a.chunk.js",
+    "main.js.map": "git@github.com:srikanthkatta07/geekbadi.git/static/js/main.61c1400a.chunk.js.map",
+    "runtime~main.js": "git@github.com:srikanthkatta07/geekbadi.git/static/js/runtime~main.5c91e672.js",
+    "runtime~main.js.map": "git@github.com:srikanthkatta07/geekbadi.git/static/js/runtime~main.5c91e672.js.map",
+    "static/js/2.3310f33a.chunk.js": "git@github.com:srikanthkatta07/geekbadi.git/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "git@github.com:srikanthkatta07/geekbadi.git/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "git@github.com:srikanthkatta07/geekbadi.git/index.html",
+    "precache-manifest.c89404944f967db6c1ee80fd930e091d.js": "git@github.com:srikanthkatta07/geekbadi.git/precache-manifest.c89404944f967db6c1ee80fd930e091d.js",
+    "service-worker.js": "git@github.com:srikanthkatta07/geekbadi.git/service-worker.js",
+    "static/css/main.850e289c.chunk.css.map": "git@github.com:srikanthkatta07/geekbadi.git/static/css/main.850e289c.chunk.css.map",
+    "static/media/main.scss": "git@github.com:srikanthkatta07/geekbadi.git/static/media/understand.4aaa3e38.svg"
   }
 }
