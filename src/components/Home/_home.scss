@@ -1,0 +1,50 @@
+.home-section {
+    background-image: url('./../../assets/images/home-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: calc(100vh - 62px);
+    position: relative;
+}
+.layer {
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    z-index: 9;
+    animation: homelayer-animation;
+    animation-duration: 4s;
+}
+
+@keyframes homelayer-animation {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.home-banner-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: banner-title;
+    animation-duration: 4s;
+    color: rgba($color: $white, $alpha: 0.9);
+    .title {
+        font-size: 60px;
+    }
+    .sub-title {
+        font-size: 26px;
+        margin-top: 10px;
+        font-weight: normal;
+    }
+}
+@keyframes banner-title {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 50%;
+    }
+}
