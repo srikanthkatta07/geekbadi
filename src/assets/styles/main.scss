@@ -3,6 +3,9 @@
 @import './fonts';
 @import './colors';
 
+// App
+@import './../../components/App/app';
+
 // components styles
 @import './../../components/Header/header';
 @import './../../components/Footer/footer';

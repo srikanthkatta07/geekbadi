@@ -1,5 +1,9 @@
 header {
-    background-color: rgba($color: #000000, $alpha: 0.1);
+    background-color: rgba($color: rgb(209, 218, 209), $alpha: 1);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
 }
 .logo {
     font-size: 32px;

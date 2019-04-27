@@ -2,7 +2,7 @@ import React  from 'react'
 
 function Footer() {
     return (
-        <footer> 
+        <footer id="contact-page"> 
             <div className="site-restrict table full-width table-fixed">
                 <div className="table-cell vertical-top map">
                     <iframe title="Geekbadi" style={{height: '325px', width: '100%'}}

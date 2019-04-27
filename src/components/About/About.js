@@ -7,7 +7,7 @@ function About() {
     <section className="about-section site-restrict">
       <div>
         {/* Process section */}
-        <div className="process-section">
+        <div className="process-section" id="about-page">
           <h2 className="title text-center">Our Mission</h2>
           <p className="text text-center">Our aims is to transform rural engineering students
             in a way that they don’t need any software training
@@ -32,7 +32,7 @@ function About() {
         </div>
 
         {/* Programs */}
-        <div className="program-section">
+        <div className="program-section" id="programs-page">
           <h2 className="title text-center">Geekbadi Internship Program (GBIP)</h2>
           <p className="text text-center">GBIP is software internship program for
             computer science students. It is a 3 months

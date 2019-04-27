@@ -1,18 +1,25 @@
 import React from 'react';
-import headerData from './../../data/header';
+import menuData from '../../data/menu';
+
+function navigateToPage(pageId) {
+    const element = document.getElementById(pageId);
+    const hederHeight = document.getElementById("header").clientHeight;
+    const bodyElement = document.scrollingElement;
+    bodyElement.scrollTop = element.offsetTop - hederHeight;
+}
 
 function Header() {
     return (
-        <header>
+        <header id="header">
             <div className="site-restrict">
-                <div className="logo float-left">
+                <a href="/" className="logo float-left pointer">
                     <span className="prefix lato-bold">GEEK</span>
                     <span className="sufix lato-bold">BADI</span>
-                </div>
+                </a>
                 <nav className="float-right">
                     <ul>
-                        {headerData.map(headerItem => {
-                            return <li className="inline-block font-18 pointer"><a href="/" onClick={(event) => {event.preventDefault()}}>{headerItem.label}</a></li>
+                        {menuData.map(menuItem => {
+                            return <li className="inline-block font-18 pointer" onClick={() => navigateToPage(menuItem.id)}><a href="/" onClick={(event) => { event.preventDefault() }}>{menuItem.label}</a></li>
                         })}
                     </ul>
                 </nav>

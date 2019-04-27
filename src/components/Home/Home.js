@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
     return (
-        <section className="home-section">
+        <section className="home-section" id="home-page">
             <div className="layer"></div>
             <div className="home-banner-title">
                 <div className="titles inline-block">
