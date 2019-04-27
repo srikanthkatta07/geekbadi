@@ -1,0 +1,62 @@
+html, body {
+    font-size: 14px;
+    font-family: 'Lato';
+
+}
+.site-restrict {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.table {
+    display: table;
+}
+.table-cell {
+    display: table-cell;
+}
+.table-fixed {
+    table-layout: fixed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.inline-block {
+    display: inline-block;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.vertical-top {
+    vertical-align: top;
+}
+
+.block {
+    display: block;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
