@@ -11,11 +11,19 @@ header {
     .sufix {
         color: green;
     }
+    @include maxLayout(767) {
+        padding: 12px 20px;
+    }
 }
 nav {
     color: $white;
     li {
         color: $black;
         padding: 20px 30px;
+    }
+}
+.web {
+    @include maxLayout(767) {
+        display: none;
     }
 }

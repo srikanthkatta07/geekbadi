@@ -1,5 +1,8 @@
 .about-section {
     padding: 30px 0px;
+    @include maxLayout(767) {
+        padding: 30px 20px;
+    }
     .title {
         font-size: 40px;
     }
@@ -10,87 +13,106 @@
         margin-top: 30px;
         color: #444444;
         font-weight: 300;
+        @include maxLayout(767) {
+            max-width: 100%;
+        }
     }
     .process {
         margin-top: 60px;
-    }
-    .card {
-        width: calc(100% / 4);
-        padding: 10px;
-        .content {
-            border: 1px solid #e6e3e3;
-            padding: 20px;
-            height: 300px;
-            font-size: 20px;
-            color: #444444;
-            transition: box-shadow 0.5s ease;
-            font-weight: 300;
-            h5 {
-                margin-bottom: 10px;
+        .card {
+            width: calc(100% / 4);
+            padding: 10px;
+            @include maxLayout(767) {
+                width: 100%;
+                padding: 20px 0px 0px 0px;
             }
-            .icon {
-                height: 50%;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 100% 50%;
-            }
-            .projects {
-                background-image: url('./../../assets/images/projects.svg');
-            }
-            .communication {
-                background-image: url('./../../assets/images/commucation.svg');
-            }
-            .feedback {
-                background-image: url('./../../assets/images/feedback.svg');
-            }
-            .remote {
-                background-image: url('./../../assets/images/remote.svg');
-            }
-        }
-        &:hover {
             .content {
-                box-shadow: rgba(0,0,0,.15) 0 5px 15px 0;
+                border: 1px solid #e6e3e3;
+                padding: 20px;
+                height: 300px;
+                font-size: 20px;
+                color: #444444;
+                transition: box-shadow 0.5s ease;
+                font-weight: 300;
+                h5 {
+                    margin-bottom: 10px;
+                }
+                .icon {
+                    height: 50%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 50%;
+                }
+                .projects {
+                    background-image: url('./../../assets/images/projects.svg');
+                }
+                .communication {
+                    background-image: url('./../../assets/images/commucation.svg');
+                }
+                .feedback {
+                    background-image: url('./../../assets/images/feedback.svg');
+                }
+                .remote {
+                    background-image: url('./../../assets/images/remote.svg');
+                }
+            }
+            &:hover {
+                .content {
+                    box-shadow: rgba(0,0,0,.15) 0 5px 15px 0;
+                }
             }
         }
     }
     .program-section {
         margin-top: 30px;
-    }
-    .program {
-        max-width: 700px;
-        margin: 0 auto;
-        li{
-            font-size: 20px;
-            color: #444444;
-            .program-title {
-                padding: 20px;
-                width: 150px;
-                h5 {
-                    margin-top: 10px;
+        .program {
+            max-width: 700px;
+            margin: 0 auto;
+            li{
+                font-size: 20px;
+                color: #444444;
+                @include maxLayout(767) {
+                    display: block;
                 }
-            }
-            .program-desc {
-                width: calc(100% - 150px);
-                padding: 20px;
-                font-weight: 300;
-            }
-            .icon {
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 100% 50px;
-                height: 50px;
-            }
-            .learn {
-                background-image: url('./../../assets/images/learn.svg')
-            }
-            .understand {
-                background-image: url('./../../assets/images/understand.svg')
-            }
-            .solve {
-                background-image: url('./../../assets/images/solve.svg')
-            }
-            .explore {
-                background-image: url('./../../assets/images/explore.svg')
+                .program-title {
+                    padding: 20px;
+                    width: 150px;
+                    h5 {
+                        margin-top: 10px;
+                    }
+                    @include maxLayout(767) {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+                .program-desc {
+                    width: calc(100% - 150px);
+                    padding: 20px;
+                    font-weight: 300;
+                    @include maxLayout(767) {
+                        display: block;
+                        width: 100%;
+                        padding: 0px;
+                    }
+                }
+                .icon {
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 50px;
+                    height: 50px;
+                }
+                .learn {
+                    background-image: url('./../../assets/images/learn.svg')
+                }
+                .understand {
+                    background-image: url('./../../assets/images/understand.svg')
+                }
+                .solve {
+                    background-image: url('./../../assets/images/solve.svg')
+                }
+                .explore {
+                    background-image: url('./../../assets/images/explore.svg')
+                }
             }
         }
     }
@@ -101,6 +123,9 @@
         margin: 0 auto;
         font-size: 18px;
         font-weight: normal;
+        @include maxLayout(767) {
+            display: block;
+        }
         .camp-type {
             font-size: 30px;
             margin-bottom: 16px;
@@ -108,6 +133,11 @@
         .table-cell {
             padding: 20px;
             width: 400px;
+            @include maxLayout(767) {
+                display: block;
+                width: 100%;
+                padding: 20px 0px;
+            }
         }
         h6 {
             font-size: 40px;

@@ -4,6 +4,9 @@
     background-repeat: no-repeat;
     height: calc(100vh - 62px);
     position: relative;
+    @include maxLayout (767) {
+        height: 400px;
+    }
 }
 .layer {
     height: 100%;
@@ -33,11 +36,17 @@
     color: rgba($color: $white, $alpha: 0.9);
     .title {
         font-size: 60px;
+        @include maxLayout(767){
+            font-size: 40px;
+        }
     }
     .sub-title {
         font-size: 26px;
         margin-top: 10px;
         font-weight: normal;
+        @include maxLayout(767){
+            font-size: 20px;
+        }
     }
 }
 @keyframes banner-title {

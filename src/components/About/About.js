@@ -43,7 +43,7 @@ function About() {
           <ul className="program">
             {excutionData.map((excutionItem) => {
               return (
-                <li className="tables">
+                <li className="table">
                   <div className="program-title table-cell text-center vertical-middle">
                     <div className={'icon ' + excutionItem.icon}></div>
                     <h5>{excutionItem.label}</h5>

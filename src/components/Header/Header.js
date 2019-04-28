@@ -16,7 +16,7 @@ function Header() {
                     <span className="prefix lato-bold">GEEK</span>
                     <span className="sufix lato-bold">BADI</span>
                 </a>
-                <nav className="float-right">
+                <nav className="web float-right">
                     <ul>
                         {menuData.map(menuItem => {
                             return <li className="inline-block font-18 pointer" onClick={() => navigateToPage(menuItem.id)}><a href="/" onClick={(event) => { event.preventDefault() }}>{menuItem.label}</a></li>
