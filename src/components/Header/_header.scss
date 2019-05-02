@@ -1,29 +1,31 @@
 header {
-    background-color: rgba($color: rgb(209, 218, 209), $alpha: 1);
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 9;
+  background-color: rgba($color: rgb(209, 218, 209), $alpha: 1);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9;
+  height: 64px;
 }
 .logo {
-    font-size: 32px;
-    padding-top: 12px;
-    .sufix {
-        color: green;
-    }
-    @include maxLayout(767) {
-        padding: 12px 20px;
-    }
+  font-size: 32px;
+  padding-top: 12px;
+  padding-left: 20px;
+  .sufix {
+    color: green;
+  }
+  @include maxLayout(767) {
+    padding: 12px 20px;
+  }
 }
 nav {
-    color: $white;
-    li {
-        color: $black;
-        padding: 20px 30px;
-    }
+  color: $white;
+  li {
+    color: $black;
+    padding: 20px 30px;
+  }
 }
 .web {
-    @include maxLayout(767) {
-        display: none;
-    }
+  @include maxLayout(767) {
+    display: none;
+  }
 }
